@@ -1,0 +1,52 @@
+.navbar-body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-img {
+  background: url(../images/logo.png) no-repeat;
+  width: 3.2em;
+  height: 2.8em;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 2em;
+  margin: 0.5rem;
+}
+
+.navbar-input {
+  font-size: 2em;
+  width: 30em;
+}
+
+.navbar-search {
+  margin: 0.5rem;
+}
+
+.navbar-btn {
+  background: url(../images/search.png) no-repeat;
+  width: 3.8em;
+  height: 4em;
+  cursor: pointer;
+  background-color: gray;
+}
+
+.video-item {
+  display: flex;
+  margin: 1rem;
+  border: gray 1px solid;
+  width: 40%;
+}
+
+.video-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+}
